@@ -1,0 +1,13 @@
+{
+  "number": "+12127363503",
+  "type": "robocall",
+  "reported_at": "2026-08-30T07:59:16.143Z",
+  "source": "community_app",
+  "reporter_bucket": "a82b5564dd4e4e60",
+  "sms_domains": [
+    "scam-example.com"
+  ],
+  "sms_url_indicators": [
+    "urgent_call"
+  ]
+}

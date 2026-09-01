@@ -1,0 +1,10 @@
+{
+  "generated": "2026-08-25T03:49:09.294701+00:00",
+  "input_report_digest": "e09f2fe3c07da00b3466241d790e2997dcdbbe69a697e0ea8fb7400248195d11",
+  "threshold": 4,
+  "min_reports_per_number": 5,
+  "min_distinct_reporters_per_number": 4,
+  "min_union_reporters": 6,
+  "count": 0,
+  "ranges": []
+}

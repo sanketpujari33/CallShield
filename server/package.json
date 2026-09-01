@@ -1,0 +1,33 @@
+{
+  "name": "callshield-server",
+  "version": "1.7.38",
+  "description": "CallShield backend server for community spam reports, shard distribution, and live caller ID enrichment",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node init && node src/server.js",
+    "dev": "node init && node --watch src/server.js",
+    "test": "node --test test/*.test.js",
+    "generate-shards": "node scripts/generate-shards.js",
+    "merge-reports": "node scripts/merge-reports.js",
+    "generate-hotlist": "node scripts/generate-hotlist.js"
+  },
+  "keywords": [
+    "callshield",
+    "spam-protection",
+    "caller-id",
+    "anti-spam",
+    "robocall-blocker"
+  ],
+  "author": "SysAdminDoc & Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}

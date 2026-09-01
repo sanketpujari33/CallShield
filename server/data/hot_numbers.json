@@ -1,0 +1,10 @@
+{
+  "generated": "2026-08-25T03:49:09.294701+00:00",
+  "window_hours": 24,
+  "min_reports": 4,
+  "min_distinct_reporters": 3,
+  "min_report_span_minutes": 120,
+  "count": 0,
+  "numbers": [],
+  "input_report_digest": "e09f2fe3c07da00b3466241d790e2997dcdbbe69a697e0ea8fb7400248195d11"
+}

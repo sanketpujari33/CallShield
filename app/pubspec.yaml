@@ -1,0 +1,55 @@
+name: callshield_app
+description: "CallShield: Open-source spam call and text blocker with on-device ML, 15+ layer detection, and Signal Ledger UI."
+publish_to: 'none'
+version: 1.7.38+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  # State management & Dependency Injection
+  provider: ^6.1.2
+  
+  # Database & Storage
+  sqflite: ^2.4.1
+  sqflite_common_ffi: ^2.3.4+4
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  shared_preferences: ^2.3.5
+  
+  # Networking
+  http: ^1.3.0
+  
+  # Security, Crypto, and Backup
+  crypto: ^3.0.6
+  encrypt: ^5.0.3
+  pointycastle: ^3.9.1
+  
+  # Internationalization & Formatting
+  intl: ^0.20.2
+  
+  # Icons & Design
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/data/spam_model_weights.json
+    - assets/data/hot_numbers.json
+    - assets/data/hot_ranges.json
+    - assets/data/spam_domains.json
+    - assets/data/spam_numbers.manifest.json
+    - assets/data/normalizer_fixtures.json
+    - assets/data/ml_feature_fixtures.json
